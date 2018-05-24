@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3E5FC"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="16dp">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="153dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="35dp"
+            android:paddingBottom="25dp"
+            android:text="Signs By Ego provides the expertise to create the perfect solution – we provide custom vehicle wrapping, custom signage including indoor or outdoor business sign, ADA signs, custom trade show display, banner, or any other signage need your business has."
+            android:textSize="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/amerifirst_1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="35dp"
+            android:paddingBottom="25dp"
+            android:textSize="16dp"
+            android:text="We believe the process of obtaining a high quality custom sign or vehicle graphics should be hassle free –just give us a call, we genuinely care about growing your business. From consultation through graphic design, installation, service, and maintenance – we’re here for you!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/hadaway_wrap"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:paddingBottom="30dp"
+            android:textSize="16dp"
+            android:text="A local sign company with world class expertise and over 20 years experience. Our team of professionals will consult with you and take the time to understand your business and advertising needs, and turn out an effective, custom solution for your project. Signs By Ego proudly serves the South Western Michigan area. We are also the only certified Avery Wrap installers in South Western Michigan."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v4.view.ViewPager
+               android:id="@+id/viewPager"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+        </FrameLayout>
+
+
+    </LinearLayout>
+</ScrollView>
